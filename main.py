@@ -10,7 +10,6 @@ with open("vocabulary.json", "r") as f:
 
 # Streamlit Sidebar - App Title and Info
 st.sidebar.title("🚀 AI Code Translator")
-st.sidebar.success(f"✅ Vocabulary Loaded: {len(vocab)} tokens")
 
 # Transformer Configuration
 class Config:
